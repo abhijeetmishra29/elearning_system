@@ -1,0 +1,117 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav ul {
+    background: #333;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+}
+
+
+
+/* Custom Login Page Styling */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
+
+/* Custom Style for Register Button */
+.btn-register {
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text */
+    border: 2px solid #28a745; /* Border color */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn-register:hover {
+    background-color: #218838; /* Darker green on hover */
+    color: #fff; /* Keep text white */
+    border-color: #218838;
+    transform: scale(1.05); /* Slight scale-up effect */
+}
